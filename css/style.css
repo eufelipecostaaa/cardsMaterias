@@ -1,0 +1,8 @@
+.primeiroAno .card{
+    background-color: rgba(35, 224, 107, 0.432);
+}
+
+.primeiroAno .card img{
+    width: 200px;
+    height: 200px;
+}
