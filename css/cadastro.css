@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/fundoCadastro.avif");
+}
+
+.form {
+    display: flex;
+    justify-content: start;
+}
+
+#custom-form {
+    width: 400px;
+    height: 575px;
+    background-color: #222222ee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+#custom-form h1,label{
+    color: white;
+}
+
+#custom-form input{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#custom-form button{
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#custom-form .botaoSalvar{
+    display: flex;
+    justify-content: end;
+}
+
+.custom-footer {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    height: 100px;
+    background-color: green;
+}

@@ -1,8 +1,35 @@
-.primeiroAno .card{
-    background-color: rgba(35, 224, 107, 0.432);
+.primeiroAno .card {
+    background-color: rgba(101, 247, 44, 0.432);
 }
 
-.primeiroAno .card img{
+.card img {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+}
+
+.custom-navbar {
+    background-color: #222222c5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-nav a{
+    color: white;
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 0px;
+}
+
+.custom-button{
+    display: flex;
+    justify-content: end;
+}
+
+.proximaPagina button{
+    border: 1px solid;
+    border-radius: 5px;
 }
